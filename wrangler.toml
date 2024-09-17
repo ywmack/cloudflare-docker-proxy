@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 # routes = [
-#   { pattern = "docker.ywmack.so", custom_domain = true },
-#   { pattern = "quay.ywmack.so", custom_domain = true },
-#   { pattern = "gcr.ywmack.so", custom_domain = true },
-#   { pattern = "k8s-gcr.ywmack.so", custom_domain = true },
-#   { pattern = "k8s.ywmack.so", custom_domain = true },
-#   { pattern = "ghcr.ywmack.so", custom_domain = true },
-#   { pattern = "cloudsmith.ywmack.so", custom_domain = true },
+#   { pattern = "docker.xdev.fun", custom_domain = true },
+#   { pattern = "quay.xdev.fun", custom_domain = true },
+#   { pattern = "gcr.xdev.fun", custom_domain = true },
+#   { pattern = "k8s-gcr.xdev.fun", custom_domain = true },
+#   { pattern = "k8s.xdev.fun", custom_domain = true },
+#   { pattern = "ghcr.xdev.fun", custom_domain = true },
+#   { pattern = "cloudsmith.xdev.fun", custom_domain = true },
 # ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-# route = { pattern = "docker-staging.ywmack.so", custom_domain = true }
+# route = { pattern = "docker-staging.xdev.fun", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
